@@ -1,14 +1,8 @@
-
 __pycache__/
 *.py[cod]
 
-
 logs/
 *.log
-
-
-*.pkl
-
 
 .venv/
 env/
@@ -17,7 +11,4 @@ venv/
 
 .vscode/
 
-
-model_store/*
-!app/model_store/*.pkl 
 

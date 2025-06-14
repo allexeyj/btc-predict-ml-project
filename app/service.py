@@ -8,6 +8,7 @@ from .logger import get_logger
 
 MODEL_STORE = "app/model_store"
 
+
 class ModelWrapper:
     def __init__(self, model_id: str, model, vectorizer, description: str):
         self.model_id = model_id
@@ -18,6 +19,7 @@ class ModelWrapper:
     def predict(self, text: str) -> float:
         X = self.vectorizer.transform([text])
         return float(self.model.predict(X)[0])
+
 
 class ModelService:
     def __init__(self):
@@ -40,14 +42,15 @@ class ModelService:
                     )
                     self.models[model_id] = wrapper
                     self.logger.info(f"загружена модель {model_id}")
-        
+
         if self.models:
             self.active_model_id = list(self.models.keys())[0]
             self.logger.info(f"активирована модель {self.active_model_id}")
 
     def list_models(self) -> List[Dict]:
         return [
-            {"model_id": m.model_id, "description": m.description} for m in self.models.values()
+            {"model_id": m.model_id, "description": m.description}
+            for m in self.models.values()
         ]
 
     def set_active_model(self, model_id: str) -> bool:
@@ -66,5 +69,6 @@ class ModelService:
     def fit_model(self, hyperparameters: dict):
         self.logger.info(f"Train с параметрами: {hyperparameters}")
         import time
+
         time.sleep(5)
         self.logger.info("Train завершена")
