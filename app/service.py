@@ -4,9 +4,9 @@ from typing import Dict, List, Optional
 from sklearn.linear_model import Ridge
 from sklearn.feature_extraction.text import CountVectorizer
 import logging
-from .logger import get_logger
+from logger import get_logger
 
-MODEL_STORE = "app/model_store"
+MODEL_STORE = "model_store"
 
 
 class ModelWrapper:

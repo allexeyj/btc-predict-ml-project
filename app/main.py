@@ -2,15 +2,15 @@ from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import List, Optional
-from .service import ModelService
-from .models import (
+from service import ModelService
+from models import (
     PredictRequest,
     PredictResponse,
     FitRequest,
     ModelInfo,
     SetActiveModelRequest,
 )
-from .logger import get_logger
+from logger import get_logger
 
 app = FastAPI()
 logger = get_logger()
