@@ -1,0 +1,30 @@
+2025-06-11 19:52:43,341 - INFO - Logger starts
+2025-06-11 19:52:43,342 - INFO - Starting FastAPI service
+2025-06-11 19:52:43,342 - INFO - Models загружены
+2025-06-12 16:01:29,381 - INFO - Logger starts
+2025-06-12 16:01:29,384 - INFO - Starting FastAPI service
+2025-06-12 16:01:29,385 - ERROR - Ошибка при загрузке модели: 
+2025-06-12 16:01:29,385 - INFO - Models загружены
+[2025-06-13 23:28:52,673] INFO - service is starting work
+2025-06-14 00:24:39,572 - INFO - Начало загрузки моделей
+2025-06-14 00:24:40,635 - INFO - Начало загрузки моделей
+2025-06-14 13:33:15,356 - INFO - Начало загрузки моделей
+2025-06-14 13:38:09,088 - INFO - Начало загрузки моделей
+2025-06-14 13:38:10,108 - INFO - Начало загрузки моделей
+2025-06-14 13:38:23,715 - INFO - Начало загрузки моделей
+2025-06-14 13:40:11,125 - INFO - загружена модель cointelegraph_view_predictor
+2025-06-14 13:40:11,125 - INFO - загружена модель cointelegraph_view_predictor
+2025-06-14 13:40:11,126 - INFO - загружена модель cointelegraph_view_predictor_v3
+2025-06-14 13:40:11,126 - INFO - загружена модель cointelegraph_view_predictor_v3
+2025-06-14 13:40:11,126 - INFO - активирована модель cointelegraph_view_predictor
+2025-06-14 13:40:11,126 - INFO - активирована модель cointelegraph_view_predictor
+2025-06-14 13:40:11,126 - INFO - Начало загрузки моделей
+2025-06-14 13:40:11,126 - INFO - Начало загрузки моделей
+2025-06-14 13:40:19,641 - INFO - Train с параметрами: {'additionalProp1': 1.0, 'additionalProp2': 0.0, 'additionalProp3': 5.0}
+2025-06-14 13:40:19,641 - INFO - Train с параметрами: {'additionalProp1': 1.0, 'additionalProp2': 0.0, 'additionalProp3': 5.0}
+2025-06-14 13:40:20,392 - INFO - Train с параметрами: {'additionalProp1': 1.0, 'additionalProp2': 0.0, 'additionalProp3': 5.0}
+2025-06-14 13:40:20,392 - INFO - Train с параметрами: {'additionalProp1': 1.0, 'additionalProp2': 0.0, 'additionalProp3': 5.0}
+2025-06-14 13:40:24,646 - INFO - Train завершена
+2025-06-14 13:40:24,646 - INFO - Train завершена
+2025-06-14 13:40:25,397 - INFO - Train завершена
+2025-06-14 13:40:25,397 - INFO - Train завершена

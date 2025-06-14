@@ -1,10 +1,18 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List, Dict
+
+class PredictRequest(BaseModel):
+    text: str
+
+class PredictResponse(BaseModel):
+    prediction: float
+
+class FitRequest(BaseModel):
+    hyperparameters: Dict[str, float]  
 
 class ModelInfo(BaseModel):
-    id: str
-    name: str
+    model_id: str
     description: str
 
-class ModelsListResponse(BaseModel):
-    models: List[ModelInfo]
+class SetActiveModelRequest(BaseModel):
+    model_id: str
