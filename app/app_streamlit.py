@@ -40,6 +40,6 @@ if st.button("Сделать предсказание"):
     else:
         try:
             prediction = service.predict(text)
-            st.success(f"Прогноз: {int(prediction):,}")
+            st.success(f"Прогноз: {prediction:,.2f}")
         except Exception as e:
             st.error(f"Ошибка при предсказании: {e}")
